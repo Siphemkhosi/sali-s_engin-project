@@ -1,0 +1,31 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: #455a64;
+}
+
+
+
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* .slogan{
+    font-weight: 700;
+    color: white;
+    font-size: xx-large;
+    text-transform: inherit;
+    text-overflow: ellipsis;
+    text-align: left;
+    padding: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+} */
+
+
+p{
+    color:red;
+  
+}
