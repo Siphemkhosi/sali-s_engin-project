@@ -74,13 +74,15 @@ nav img{
     font-size: 14px;
     
 }
-
+.navi{
+    opacity: 100%;
+}
 .opening-text h1{
   font-size: 42px;  
 }
 .nav-section{
     background-color: #000000;
-    opacity: 0.6 !important;
+    opacity: 0.8 !important;
 }
 
 
@@ -104,13 +106,13 @@ nav img{
     cursor: pointer;
 }
 .first-btn:hover{
-    border: 1px solid #FFD700;
-    background:#FFD700;
+    border: 1px solid #ffa000;
+    background: #ffa000;
     transition: 1s;
 }
 
 .first-btn:active {
-    background-color: #3e8e41;
+    background-color: #607d8b;
     box-shadow: 0 5px transparent;
     transform: translateX(54px);
   }
