@@ -8,9 +8,9 @@
     min-height:100vh;
     width: 100%;
     background-image:linear-gradient(rgba(4,9,30,0,7),rgba(4,9,30,0,7)) ;
-    /* background-image:url(images/); */
-    background-color: gold;
-    color: #000000;
+    background-image:url(/images/60-connections.webp);
+    /* background-color: gold; */
+    color: #fff;
     background-position: center;
     background-size:cover ;
   position:relative;
@@ -31,6 +31,15 @@ nav img{
 .navigators{
     flex: 1;
     text-align: right;
+    width: 100%;
+    padding: 15px 0;
+  
+    font-family: sans-serif;
+    opacity: 0.8;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .navigators ul li{
@@ -42,7 +51,11 @@ nav img{
 .navigators ul li a{
     color: white;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 15px;
+    font-weight: 600;
+    font-style: italic;
+    transition: 0.3 ease;
+    border-bottom: 3px solid transparent;
 }
 .navigators ul li ::after{
     content: "";
@@ -52,20 +65,41 @@ nav img{
     margin: auto;
     transition: 0.5s;
 }
+.navigators ul li a:hover{
+color: #18ffff;
+}
+
+a:hover{
+color: #18ffff;
+
+}
+
+/* .special{
+    background: orange;
+    width: 900px;
+    box-shadow:#ccc;
+    border-color: #fff;
+    border-radius: 3px;
+    border-width: 2px;
+    opacity: 0.9;
+    
+} */
+
 h1{
-    color: #000;
+    color: orange;
+    font-style: oblique;
 }
 .navigators ul li:hover::after{
     width: 100%;
 
 }
 .img{
-    border:2px solid #fff;
+    border:2px solid #ccc;
         background: url(img/tiger.png) no-repeat;
         box-shadow: 10px 10px 5px #ccc;
         -moz-box-shadow: 10px 10px 5px #ccc;
-        -webkit-box-shadow: 10px 10px 5px #ccc;
-        -khtml-box-shadow: 10px 10px 5px #ccc;
+        -webkit-box-shadow: 10px 10px 5px #ccc; 
+         -khtml-box-shadow: 10px 10px 5px#ccc ; 
 }
 .opening-text{
     width: 90%;
@@ -78,8 +112,9 @@ h1{
 }
 .opening-text p{
     margin: 10px 0 40px;
-    color:black;
+    color:#fff;
     font-size: 14px;
+    font-style: oblique;
     
 }
 .navi{
@@ -114,11 +149,18 @@ h1{
     cursor: pointer;
 }
 .first-btn:hover{
-    border: 1px solid #ffa000;
-    background: #ffa000;
+    border: 1px solid orange;
+    background:orange;
     transition: 1s;
 }
-
+h6 {
+   color: #18ffff ;
+}
+.footer{
+    color: orange;
+    background-color: black;
+    
+}
 .first-btn:active {
     background-color: #607d8b;
     box-shadow: 0 5px transparent;
@@ -138,7 +180,7 @@ h1{
         width: 200px;
         top: 0;
         right: 0;
-        background:navy;
+        background:orange;
         text-align: left;
         z-index: 2;
     }
