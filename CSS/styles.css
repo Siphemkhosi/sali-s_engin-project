@@ -4,6 +4,18 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+
+
+
+/* MM-Maketela start  */
+
+body{
+
+background-image:  url('bubbles.png');
+/* background-color: blue; */
+}
+/* MM-Maketela */
 .container{
     min-height:100vh;
     width: 100%;
