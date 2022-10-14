@@ -7,9 +7,13 @@
 .container{
     min-height:100vh;
     width: 100%;
-    background-image:linear-gradient(rgba(4,9,30,0,7),rgba(4,9,30,0,7)) ;
-    background-image:url(/images/60-connections.webp);
+    /* background-image:linear-gradient(rgba(4,9,30,0,7),rgba(4,9,30,0,7)) ; */
+    background:url(/images/60-connections.webp) no-repeat center;
     /* background-color: gold; */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+      background-position: center center;
     color: #fff;
     background-position: center;
     background-size:cover ;
