@@ -10,17 +10,17 @@
 
 /* MM-Maketela start  */
 
-body{
+/* body{ */
 
-background-image:  url('bubbles.png');
+/* background-image:  url('bubbles.png'); */
 /* background-color: blue; */
-}
+/* } */
 /* MM-Maketela */
 .container{
     min-height:100vh;
     width: 100%;
     /* background-image:linear-gradient(rgba(4,9,30,0,7),rgba(4,9,30,0,7)) ; */
-    background:url(../images/bubbles.png) no-repeat center;
+    background:url(/images/bubbles.png) no-repeat center;
     /* background-color: gold; */
     width: 100%;
     margin-left: auto;
